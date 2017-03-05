@@ -47,7 +47,7 @@
         border: 4px inset #aecbff;
     }
 </style>
-<div id="nav">!--The side menu column contains the vertical menu block--></div>
+<div id="nav"><!--The side menu column contains the vertical menu block--></div>
     <ul>
     <li><a href="page2.php" title="page two">Page 2</a></li>
      <li><a href="page3.php" title="page three">Page3</a></li>
