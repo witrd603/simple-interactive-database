@@ -22,10 +22,10 @@
 <h1>This is the header</h1>
 <div id="reg-navigation">
     <ul>
-        <li>
+
                 <li><a href="register-page.php" title="">Register</a></li>
                     <li><a href="register-view_users-page.php" title="">View Users</a></li>
                         <li><a href="register-password.php" title="">New Password</a></li>
-        </li>
+      
     </ul>
 </div>
