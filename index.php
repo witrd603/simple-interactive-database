@@ -8,11 +8,11 @@
 </head>
 
 <body>
-    <div id='çontainer'>
-        <?php include( 'header.php'); ?>
-        <?php include( 'nav.php'); ?>
-        <?php include( 'info-col.php'); ?>
-        <div id='çontent'>
+    <div id='container'>
+        <?php include('header.php'); ?>
+        <?php include('nav.php'); ?>
+        <?php include('info-col.php'); ?>
+        <div id='content'>
             <!--Start of page content.-->
             <p> The home page content.
 
@@ -20,7 +20,7 @@
             <!--End of the home page content.-->
         </div>
     </div>
-    <?php include( 'footer.php'); ?>
+    <?php include('footer.php'); ?>
 </body>
 
 </html>

@@ -40,7 +40,7 @@ table {
 }
 td {
     border: 1px navy solid;
-    padding: 1px 0 4px;
+    padding: 1px 0 1px 4px;
     text-align: left;
 }
 form {

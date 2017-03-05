@@ -17,6 +17,13 @@
         margin: auto 0 auto 20px;
         width: 487px;
     }
+    #reg-navigation ul {
+            float:right;
+            font-size: medium;
+            width: 160px;
+            margin:-150px 15px 0 88%;
+            }
+
 </style>
 <div id="header">
 <h1>This is the header</h1>
@@ -26,6 +33,6 @@
                 <li><a href="register-page.php" title="">Register</a></li>
                     <li><a href="register-view_users-page.php" title="">View Users</a></li>
                         <li><a href="register-password.php" title="">New Password</a></li>
-      
+
     </ul>
 </div>
