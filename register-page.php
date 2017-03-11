@@ -59,7 +59,31 @@
                                   if ($result) {// If it ran OK.
                                   ...header ("location: register-thanks.php");
                                   exit();
-                                  //End of SUCCESFUL SECTION}}
+                                  //End of SUCCESFUL SECTION
+                                  ...}
+                                  else {// If the form handler or database table contained errors
+                                  //Display any error message
+                                  ...echo '<h2>System Error</h2>
+                                  <p class="error">You could not be registred due to a system error. We apologize for any inconvenience.</p>';
+                                  //Debug the message:
+                                  ....echo '<p>' . mysqli_error($dbcon) . '<br><br>Query: ' .$q. '</p>';
+
+                                  }//End of it clause ($result)
+                                  mysqli_error($dbcon); // Close the database connection.
+                                  //Include the footer and quit the script:
+                                  include ('footer.php');
+                                  exit();
+                                  }
+                                  else {//Display the errors
+                                  echo '<h2>Error!</h2>
+                                  <p class="error">The following error(s) occurred:<br>';
+                                  foreach ($errors as $msg) {// Print each error.
+                                  echo" - $msg<br>\n";
+                                  }
+                                  echo '</p><h3>Please try again. </h3><p><br></p>';
+                                  }//End of if (empty($errors)) IFF
+                                  }// End of the main Submit conditional.
+                                  ?>
 
 
                           </p>
