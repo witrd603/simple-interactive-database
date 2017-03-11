@@ -9,16 +9,14 @@
         margin: 0;
     }
     /*set general side button styles*/
-
-    li {
+      li  {
         width: 115px;
         list-style-type: none;
         margin-bottom: 3px;
         text-align: center;
     }
     /*Set general anchor styles*/
-
-    li a {
+       li a {
         display: block;
         width: 115px;
         color: white;
@@ -27,22 +25,19 @@
     }
     /*specify state styles*/
     /*mouseout (default)*/
-
-    li a {
+       li a {
         background: #5B78BE;
         border: 4px outset #8ABAFF;
     }
     /*mouseover*/
-
-    li a:hover {
+      li a:hover {
         display: block;
         background: #0a4adf;
         border: 4px outset #8abaff;
         width: 115px;
     }
     /*onmousedown*/
-
-    li a:active {
+       li a:active {
         background: #aecbff;
         border: 4px inset #aecbff;
     }
