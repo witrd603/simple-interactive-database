@@ -6,8 +6,7 @@
     <meta charset=utf-8>
     <link rel="stylesheet" type="text/css" href="includes.css">
 </head>
-
-<body>
+ <body>
     <div id='container'>
         <?php include('header.php'); ?>
         <?php include('nav.php'); ?>
