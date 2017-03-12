@@ -6,7 +6,7 @@
         color: navy;
         width: 135px;
         text-align: center;
-        margin: 0;
+        margin: 0px;
     }
     /*set general side button styles*/
       li  {

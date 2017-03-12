@@ -6,7 +6,7 @@
     color:navy;
     width:135px;
     text-align:center;
-    margin: 5px 5px 0 0 ;
+    margin: 5px 5px 0px 0px ;
 }
 </style>
 <div id="info-col">

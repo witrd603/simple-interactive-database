@@ -22,7 +22,7 @@
                           <p>
                           <?php
                           //This script performs an INSERT query that adds a record to the users table.
-                          if ($_SERVER['REQUEST_METHOD'] == POST) {
+                          if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                               $errors = array(); //Initialize an error array.
                               //Was the first name entered?
                               if (empty($_POST['fname'])) {
@@ -58,16 +58,16 @@
                                   VALUES (' ', '$fn', '$ln', '$e', '$SHA1('$p'), NOW() )";
                                   $result= @mysqli_query($dbcon, $q); // Run the query.
                                   if ($result) {// If it ran OK.
-                                  ...header ("location: register-thanks.php");
+                                  header ("location: register-thanks.php");
                                   exit();
                                   //End of SUCCESFUL SECTION
-                                  ...}
+                                  }
                                   else {// If the form handler or database table contained errors
                                   //Display any error message
-                                  ...echo '<h2>System Error</h2>
+                          echo '<h2>System Error</h2>
                                   <p class="error">You could not be registred due to a system error. We apologize for any inconvenience.</p>';
                                   //Debug the message:
-                                  ....echo '<p>' . mysqli_error($dbcon) . '<br><br>Query: ' .$q. '</p>';
+                                  echo '<p>' . mysqli_error($dbcon) . '<br><br>Query: ' .$q. '</p>';
 
                                   }//End of it clause ($result)
                                   mysqli_error($dbcon); // Close the database connection.
@@ -86,7 +86,7 @@
                                   }// End of the main Submit conditional.
                                   ?>
                                   <h2>Register</h2>
-                                  !--Display the form on the screen-->
+                                  <!--Display the form on the screen-->
                                   <form action="register.page.php" method="post">
 
                                   <p><label class="label" for="fname">First Name:</label>

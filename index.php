@@ -3,7 +3,7 @@
 
 <head>
     <title>Template for an interactive web page</title>
-    <meta charset=utf-8>
+    <meta charset = utf-8>
     <link rel="stylesheet" type="text/css" href="includes.css">
 </head>
  <body>
@@ -13,7 +13,7 @@
         <?php include('info-col.php'); ?>
         <div id='content'>
             <!--Start of page content.-->
-            <p> The home page content.
+            <p> The home page content. The home page content. The home page content. The home page content. The home page content.
 
             </p>
             <!--End of the home page content.-->
