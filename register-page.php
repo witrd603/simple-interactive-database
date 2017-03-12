@@ -3,7 +3,7 @@
     <head>
         <title>Register page</title>
         <meta charset=utf-8>
-        <link rel="stylesheet" type="text/css" href="includes.css" >
+        <link rel="stylesheet" type="text/css" href="includes.css">
         <style type="text/css">
         p.error {
             color:red;
@@ -12,12 +12,13 @@
             text-align:center;
         }
           </style>
+          </head>
           <body>
           <div id="container">
-          <php include("header.php"); ?>
-                <php include("nav.php"); ?>
-                  <php include("info-col.php"); ?>
-                      <div id="content">!--Start of the page content. -->
+          <?php include("header.php"); ?>
+                <?php include("nav.php"); ?>
+                  <?php include("info-col.php"); ?>
+                      <div id="content"><!--Start of the page content.-->
                           <p>
                           <?php
                           //This script performs an INSERT query that adds a record to the users table.
@@ -84,14 +85,37 @@
                                   }//End of if (empty($errors)) IFF
                                   }// End of the main Submit conditional.
                                   ?>
+                                  <h2>Register</h2>
+                                  !--Display the form on the screen-->
+                                  <form action="register.page.php" method="post">
 
+                                  <p><label class="label" for="fname">First Name:</label>
+                                  <input id="fname" type="text" name= "fname" size="30" maxlength= "30"
+                                  value= "<?php if (isset($_POST['fname'])) echo $_POST[ 'fname']; ?>"</p>
 
-                          </p>
-                      </div>
+                                     <p><label class="label" for="lname">Last Name:</label>
+                                  <input id="lname" type="text" name= "flame" size="30" maxlength= "40"
+                                  value= "<?php if (isset($_POST['lname'])) echo $_POST[ 'lname']; ?>"</p>
+                                  
+                                     <p><label class="label" for="email">Email Address:</label>
+                                  <input id="email" type="text" name= "email" size="30" maxlength= "60"
+                                  value= "<?php if (isset($_POST['email'])) echo $_POST[ 'email']; ?>"</p>
+                                  
+                                     <p><label class="label" for="psword1">Password:</label>
+                                  <input id="psword1" type="psword" name= "psword1" size="12" maxlength= "12"
+                                  value= "<?php if (isset($_POST['psword1'])) echo $_POST[ 'psword1']; ?>"</p>
+                                  
+                                     <p><label class="label" for="psword2">Password:</label>
+                                  <input id="psword" type="psword" name= "psword2" size="12" maxlength= "12"
+                                  value= "<?php if (isset($_POST['psword2'])) echo $_POST[ 'psword2']; ?>"</p> 
+                                  
+                                  <input id="submit" type="psword" name= "submit" value= "Register"></p>
+                                  </form><!-- End of the page content. -->
+                                  <?php include ('footer.php'); ?></p>
+                                  </div>
+                                  </div>
+                              
 
-
-
-          </div>
 
           </body>
     </head>
