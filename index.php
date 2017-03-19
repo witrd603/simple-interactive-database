@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 <!doctype html>
+=======
+﻿<!doctype html>
+>>>>>>> origin/master
 <html lang=en>
 <head>
 <title>Index-register</title>
 <meta charset=utf-8>
+<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" href="includes.css">
+=======
+<link rel="stylesheet" type="text/css" href= "includes.css">
+>>>>>>> origin/master
 </head>
 <body>
 <div id="container">

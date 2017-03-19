@@ -7,6 +7,7 @@ h3 { font-size:110%; color:navy; text-align:center;
 }
 #container {position:relative; min-width:960px; max-width:1200px; margin:auto; text-align:left;	
 }
+<<<<<<< HEAD
 #header, #header-members, #header-admin { margin:10px auto 0 auto; min-width:960px; max-width:1200px; height:175px; background-image: url('images/tile-pale.jpg'); 
 background-repeat: repeat; padding:0; color:white;	
 }
@@ -39,6 +40,9 @@ li a:active { background:#aecbff; border: 4px inset #aecbff;
 #mid-left-col { width:48%; float:left; text-align:left;
 }
 #mid-right-col {width:48%; float:right; text-align:left;
+=======
+#midcol { margin-left:140px; margin-right:140px;
+>>>>>>> origin/master
 }
 #content { 	margin-left:150px; margin-right:150px;
 }
@@ -50,6 +54,7 @@ form { margin-left:180px;
 }
 #footer { margin:auto; text-align:center;
 }
+<<<<<<< HEAD
 p.error { color:red; font-size:105%; font-weight:bold; text-align:center;
 }
 .label { float:left; width:210px; text-align:right; clear:left; margin-right:5px;
@@ -66,4 +71,11 @@ p.error { color:red; font-size:105%; font-weight:bold; text-align:center;
 }
 span.left {
 	text-align:left;
+=======
+p.error { color:red; font-size:105%; font-weight:bold;
+}
+.label { float:left; width:210px; text-align:right; clear:left; margin-right:5px;
+}
+#submit { margin-left:215px; 
+>>>>>>> origin/master
 }  

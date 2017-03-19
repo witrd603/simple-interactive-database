@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <style type="text/css">
+=======
+﻿<style type="text/css">
+>>>>>>> origin/master
 #header { 	margin:10px auto 0 auto; min-width:960px; max-width:1200px; height:175px; background-image: url('images/tile-pale.jpg'); 
 background-repeat: repeat; padding:0; color:white;	
 }
